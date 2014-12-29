@@ -5,7 +5,7 @@
     function checkAndMarkElement(element, condition, skip) {
         element.innerHTML = condition;
 
-        // God of CSS please forgive me :-)
+        // It'd be better to use css here, sorry for laziness :-)
         if (condition === true && ! skip) {
             element.style.background = "#00FF00";
         } else if (condition === false && ! skip) {
