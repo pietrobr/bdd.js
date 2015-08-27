@@ -2,7 +2,7 @@
 (function () {
     "use strict";
 
-    // Private
+    // Private 1
 
     var returnTrueIfGreaterOrEqualThanZero,
         _isOpera = false, _isIE = false, _isSafari = false, _isChrome = false, _isFirefox = false, _isWebViewAndroid = false, _isWebView = false, _isWebViewiOS = false, _isAndroidBrowser = false, _isKindleBrowser = false, _isFirefoxOS = false,
